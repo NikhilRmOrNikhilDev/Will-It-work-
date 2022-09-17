@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 600;
+}
+body{
+    text-align: center;
+    min-width: 100vh;
+}
+.navbar{
+    background: url(download.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 10px !important;
+}
+.navbar .navbar-brand {
+    color: rgb(216, 161, 110) !important;
+    font-size: 2rem;
+}
+.navbar .navbar-nav .nav-item{
+    color: rgb(216, 161, 110) !important;
+    font-family: 'Silkscreen', cursive !important;
+}
+#idk{
+    width: 50%;
+    border-radius: 10px;
+}
+#bg-sec{
+    background-color: rgba(173, 22, 22, 0.89);
+    text-align: center;
+}
+#info{
+    background-color: aquamarine;
+    color: rgb(180, 176, 176);
+    width: 1200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#info p{
+    font-size: 20px;
+}
+#Instruction h1{
+    width: 100%;
+    background: url(download.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+video{
+    background: url("game_console.png");
+    background-position: center;
+    background-size: cover;
+    padding: 25px;
+}
+.btn1{
+    padding: 10px;
+    background-color: #009dff;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.btn1:hover{
+    background-color: #0079c4;
+}
